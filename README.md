@@ -1,5 +1,3 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0E7A0D&height=120&section=header"/>
-
 <p align="center">
   <img src="https://skillicons.dev/icons?i=java,idea,git,github&perline=12" />
 </p>
@@ -65,5 +63,3 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
 ## 📄 License
 
 This project is licensed under the MIT [LICENSE.md](LICENSE.md).
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0E7A0D&height=120&section=footer"/>
