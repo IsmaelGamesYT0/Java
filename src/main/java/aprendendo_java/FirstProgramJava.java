@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class PrimeiroProgramaEmJava {
+public class FirstProgramJava {
     static void main(String[] ignoredArgs) throws InterruptedException {
         String nome;
         int idade;
