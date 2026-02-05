@@ -1,27 +1,22 @@
 package aprendendo_java;
 
-import java.util.Scanner;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Scanner;
 
-public class Main {
-
-    public static void main(String[] args) throws InterruptedException {
+public class PrimeiroProgramaEmJava {
+    static void main(String[] ignoredArgs) throws InterruptedException {
         String nome;
         int idade;
-        ArrayList<String> listaNomes = new ArrayList<>();
         int download;
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Digite seu nome: ");
         nome = scanner.nextLine();
         System.out.printf("Olá, %s! Seja bem-vindo(a) ao meu programa em Java!\n", nome);
-        listaNomes.add(nome);
-        listaNomes.add("Claudinei");
-        listaNomes.add("Robson");
-        listaNomes.add("Junhinho");
+        ArrayList<String> listaNomes = new ArrayList<>(Arrays.asList(nome, "Maria", "João", "Ana", "Carlos"));
 
-
-        for(download = 0; download <= 100; download ++) {
+        for (download = 0; download <= 100; download++) {
             System.out.printf("Downloading the list... %d%% \n", download);
             Thread.sleep(100);
         }
@@ -41,11 +36,9 @@ public class Main {
             return;
         }
 
-        System.out.print("obrigado por usar meu programa!\n");
-
         for (String nomes : listaNomes) {
-            System.out.println("Nomes na lista: ");
-            System.out.println(nomes);
+            System.out.println("Nomes na lista: " + nomes);
         }
+        System.out.print("Obrigado por usar meu programa!\n");
     }
 }
