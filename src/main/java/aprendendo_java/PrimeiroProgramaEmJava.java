@@ -36,9 +36,8 @@ public class PrimeiroProgramaEmJava {
             return;
         }
 
-        for (String nomes : listaNomes) {
-            System.out.println("Nomes na lista: " + nomes);
-        }
+        System.out.println("Nomes na lista: " + listaNomes);
+
         System.out.print("Obrigado por usar meu programa!\n");
     }
 }
