@@ -2,7 +2,7 @@
   <img src="https://skillicons.dev/icons?i=java,idea,git,github&perline=12" />
 </p>
 
-<h1 align="center">Java ☕</h1>
+<h1 align="center">Java Learn ☕</h1>
 
 <p align="center">
   My main Java repository.<br>
