@@ -4,11 +4,11 @@ import java.util.Scanner;
 
 public class TemperatureConverter {
     public static void main(String[] ignoredArgs) {
-        Double C;
-        Double conversao_fahrenheit;
-        Double conversao_kelvin;
-        Double conversao_reaumur;
-        Double conversao_rankine;
+        double C;
+        double conversao_fahrenheit;
+        double conversao_kelvin;
+        double conversao_reaumur;
+        double conversao_rankine;
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Por favor insira a temperatura em Celsius Exemplo: 37,4 ");
