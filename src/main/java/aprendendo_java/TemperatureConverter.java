@@ -1,19 +1,5 @@
 package aprendendo_java;
 
-/*
-Enunciado:
-
-Crie um programa que receba uma temperatura em graus Celsius (C)
-e a converta para as seguintes escalas:
-
-- Fahrenheit (F): F = C * 1.8 + 32
-- Kelvin (K):      K = C + 273.15
-- Réaumur (Re):    Re = C * 0.8
-- Rankine (Ra):    Ra = C * 1.8 + 32 + 459.67
-
-O programa deve exibir o valor convertido em cada escala.
-*/
-
 import java.util.Scanner;
 
 public class TemperatureConverter {
