@@ -1,4 +1,4 @@
-package aprendendo_java;
+package LearnJava.practice;
 import java.util.Scanner;
 
 public class HeightStats {
