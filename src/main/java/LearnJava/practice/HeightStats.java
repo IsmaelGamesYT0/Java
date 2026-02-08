@@ -13,7 +13,6 @@ public class HeightStats {
         double maior = altura1;
         double menor = altura1;
 
-
         System.out.println("Informe a altura 2: ");
         altura2 = scanner.nextDouble();
 

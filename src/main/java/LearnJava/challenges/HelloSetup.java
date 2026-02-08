@@ -1,6 +1,6 @@
 package LearnJava.challenges;
 
-public class HelloWorld {
+public class HelloSetup {
     public static void main(String[] args) {
         System.out.println("Olá, mundo!");
 

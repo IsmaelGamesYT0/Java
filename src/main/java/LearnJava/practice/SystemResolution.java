@@ -1,5 +1,4 @@
 package LearnJava.practice;
-
 import java.awt.*;
 
 public class SystemResolution {

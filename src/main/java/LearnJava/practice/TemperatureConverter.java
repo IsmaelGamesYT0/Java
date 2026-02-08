@@ -1,5 +1,4 @@
 package LearnJava.practice;
-
 import java.util.Scanner;
 
 public class TemperatureConverter {
@@ -20,7 +19,6 @@ public class TemperatureConverter {
         conversao_rankine = C * 1.8 + 32 + 459.67;
 
         System.out.println("Segue a conversão logo abaixo: ");
-
         System.out.printf("Sua conversão de Celsius para Fahrenheit é: %.2f°F \n", conversao_fahrenheit);
         System.out.printf("Sua conversão de Celsius para Kelvin é: %.2f°K \n", conversao_kelvin);
         System.out.printf("Sua conversão de Celsius para Réaumur é: %.2f°Re\n", conversao_reaumur);

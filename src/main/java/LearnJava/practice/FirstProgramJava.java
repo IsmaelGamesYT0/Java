@@ -1,5 +1,4 @@
 package LearnJava.practice;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
@@ -26,7 +25,6 @@ public class FirstProgramJava {
 
         System.out.print("\nAgora informe a sua idade: ");
         idade = scanner.nextInt();
-
         scanner.close();
 
         if (idade >= 18) {
@@ -35,9 +33,7 @@ public class FirstProgramJava {
             System.out.println("Entrada bloqueada!");
             return;
         }
-
         System.out.println("Nomes na lista: " + listaNomes);
-
         System.out.print("Obrigado por usar meu programa!\n");
     }
 }

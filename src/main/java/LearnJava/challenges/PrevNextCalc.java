@@ -1,11 +1,9 @@
 package LearnJava.challenges;
-
 import java.util.Scanner;
 
-public class NeighborNumbers {
+public class PrevNextCalc {
     public static void main(String[] args) {
         int numero, sucessor, antecessor;
-
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Insira um número: ");
@@ -18,6 +16,5 @@ public class NeighborNumbers {
                 numero, sucessor, antecessor);
 
         // Finalizado em 02m 13s
-
     }
 }

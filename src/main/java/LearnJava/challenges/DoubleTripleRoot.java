@@ -1,11 +1,9 @@
 package LearnJava.challenges;
-
 import java.util.Scanner;
 
 public class DoubleTripleRoot {
     public static void main(String[] args) {
         int numero, duplo, triplo, raiz;
-
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Por favor informe um número: \n");

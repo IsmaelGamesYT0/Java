@@ -1,12 +1,10 @@
 package LearnJava.challenges;
-
 import java.util.Scanner;
 
-public class AverageSchoolGrade {
+public class ArithmeticAverage {
     public static void main(String[] args) {
 
         float nota1, nota2, nota3, media;
-
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Insira a primeira nota: Exemplo: 8,2 \n");

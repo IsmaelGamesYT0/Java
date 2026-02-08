@@ -1,11 +1,9 @@
 package LearnJava.challenges;
-
 import java.util.Scanner;
 
-public class SimpleSum {
+public class AddTwoNumbers {
     public static void main(String[] args) {
-        int num1, num2;
-        int soma;
+        int num1, num2, soma;
 
         Scanner scanner = new Scanner(System.in);
 
