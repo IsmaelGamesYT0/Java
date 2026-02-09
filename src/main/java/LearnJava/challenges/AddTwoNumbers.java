@@ -17,6 +17,7 @@ public class AddTwoNumbers {
 
         System.out.printf("A soma entre %d e %d é igual à %d", num1, num2, soma);
 
+        scanner.close();
         // Finalizado em 02m 12s
     }
 }
