@@ -5,7 +5,6 @@ public class Calculator {
     public static void main(String[] args) {
         double num1, num2, soma, subt, mult, div, pot, raiz;
         int opcao;
-
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Insira um número: ");

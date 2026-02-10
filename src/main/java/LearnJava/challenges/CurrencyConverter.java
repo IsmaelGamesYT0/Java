@@ -1,10 +1,8 @@
 package LearnJava.challenges;
 import java.util.Scanner;
-import java.util.Locale;
 
 public class CurrencyConverter {
     public static void main(String[] args) {
-        Locale.forLanguageTag("pt-BR");
         double saldo, dolar;
         Scanner scanner = new Scanner(System.in);
 

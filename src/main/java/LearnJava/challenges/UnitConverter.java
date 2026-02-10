@@ -2,7 +2,6 @@ package LearnJava.challenges;
 import java.util.Scanner;
 
 public class UnitConverter {
-
     public static void main(String[] args) {
         double metros, cm, mm;
         int conversao;

@@ -14,7 +14,6 @@ public class DoubleTripleRoot {
         raiz = (int) Math.sqrt(numero);
 
         System.out.printf("Segue abaixo o duplo, triplo e raiz do número %d \n", numero);
-
         System.out.printf("O duplo é %d.\n", duplo);
         System.out.printf("O triplo é %d.\n", triplo);
         System.out.printf("A raiz é %d.\n", raiz);

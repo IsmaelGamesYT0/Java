@@ -1,10 +1,8 @@
 package LearnJava.challenges;
-import java.util.Locale;
 import java.util.Scanner;
 
 public class DiscountCalculator {
     public static void main(String[] args) {
-        Locale.forLanguageTag("pt-BR");
         double valor_original, desconto, valor_com_desconto;
         Scanner scanner = new Scanner(System.in);
 
@@ -13,7 +11,6 @@ public class DiscountCalculator {
         valor_original = scanner.nextDouble();
 
         desconto = valor_original * 0.05;
-
         valor_com_desconto = valor_original - desconto;
 
         System.out.printf("Parabéns! Você ganhou um desconto de 5%% e agora só irá pagar R$%,.2f.", valor_com_desconto);

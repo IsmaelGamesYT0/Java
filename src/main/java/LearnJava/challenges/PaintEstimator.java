@@ -3,7 +3,6 @@ import java.util.Scanner;
 
 public class PaintEstimator {
     public static void main(String[] args) {
-
         int largura, altura, area;
         double rendimento = 10;
         int demos = 2;

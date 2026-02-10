@@ -4,7 +4,6 @@ import java.util.Scanner;
 public class MultiplicationTable {
     public static void main(String[] args) {
         int n;
-
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Por favor, insira um número: ");
