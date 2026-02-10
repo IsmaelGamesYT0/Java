@@ -1,4 +1,4 @@
-package LearnJava.Evolution;
+package LearnJava.evolution;
 
 public class RocketLaunch {
     public static void main (String[] args) throws InterruptedException {

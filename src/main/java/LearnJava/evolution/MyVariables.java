@@ -1,4 +1,4 @@
-package LearnJava.Evolution;
+package LearnJava.evolution;
 
 public class MyVariables {
     public static void main(String[] args) {

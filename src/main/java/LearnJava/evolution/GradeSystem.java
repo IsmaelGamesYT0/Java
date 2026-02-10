@@ -1,4 +1,4 @@
-package LearnJava.Evolution;
+package LearnJava.evolution;
 import java.util.Scanner;
 
 public class GradeSystem {
