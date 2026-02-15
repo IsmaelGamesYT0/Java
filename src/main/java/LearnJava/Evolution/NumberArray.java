@@ -23,5 +23,7 @@ public class NumberArray {
         int resultado = Arrays.stream(lista).sum();
 
         System.out.printf("A soma de todos os números é igual a %d", resultado);
+
+        scanner.close();
     }
 }

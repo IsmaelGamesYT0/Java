@@ -10,5 +10,7 @@ public class InputTester {
         nome = scanner.nextLine();
 
         System.out.printf("\nOlá, [%s]!", nome);
+
+        scanner.close();
     }
 }

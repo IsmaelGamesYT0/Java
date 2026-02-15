@@ -20,5 +20,7 @@ public class Vectors {
         for (int i = 0; i < 5; i++) {
             System.out.println(list[i]);
         }
+
+        scanner.close();
     }
 }

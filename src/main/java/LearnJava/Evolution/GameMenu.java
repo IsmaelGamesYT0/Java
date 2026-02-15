@@ -34,5 +34,6 @@ public class GameMenu {
                 break;
             }
         }
+        scanner.close();
     }
 }

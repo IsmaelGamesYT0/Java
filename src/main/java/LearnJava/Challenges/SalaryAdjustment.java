@@ -15,6 +15,8 @@ public class SalaryAdjustment {
         System.out.println("Seu salario teve um aumento de 15%");
         System.out.printf("Agora você irá receber um salario de R$%,.2f.", salario_reajustado);
 
+        scanner.close();
+
         // Finalizado em 04min 50s
     }
 }

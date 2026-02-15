@@ -27,5 +27,6 @@ public class UnitConverter {
         else {
             System.out.println("Opção inválida");
         }
+        scanner.close();
     }
 }

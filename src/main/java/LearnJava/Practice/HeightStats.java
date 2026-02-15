@@ -118,5 +118,7 @@ public class HeightStats {
         System.out.printf("A maior altura é de %.2fcm\n", maior);
         System.out.printf("A menor altura é de %.2fcm\n", menor);
         System.out.printf("A média de altura é de %.2fcm", media);
+
+        scanner.close();
     }
 }

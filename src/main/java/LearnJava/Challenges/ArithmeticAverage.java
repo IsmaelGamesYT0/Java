@@ -20,6 +20,8 @@ public class ArithmeticAverage {
 
         System.out.printf("A média é %.2f.", media);
 
+        scanner.close();
+
         // Finalizado em 02m 14s
     }
 }

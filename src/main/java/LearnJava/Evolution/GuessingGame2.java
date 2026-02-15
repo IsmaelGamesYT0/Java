@@ -24,5 +24,7 @@ public class GuessingGame2 {
         }
         System.out.printf("O número secreto era %d \n", numerosecreto);
         System.out.printf("Você tentou %d vezes", tentativas);
+
+        sc.close();
     }
 }

@@ -33,5 +33,6 @@ public class Pares {
                 System.out.printf("%d é ímpar!\n", num.get(i));
             }
         }
+        scanner.close();
     }
 }

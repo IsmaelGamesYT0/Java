@@ -32,5 +32,7 @@ public class AnalyseNumbers {
         System.out.printf("Você inseriu %d números positivos.\n", positivo);
         System.out.printf("Você inseriu %d números negativos.\n", negativo);
         System.out.printf("A soma de todos é igual a %d", soma);
+
+        scanner.close();
     }
 }

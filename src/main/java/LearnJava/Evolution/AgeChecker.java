@@ -15,8 +15,9 @@ public class AgeChecker {
 
         if(idade < 18 ) {
             System.out.println("Entrada bloqueada!");
-            return;
         }
         System.out.printf("Olá [%s] Seja Bem-vindo ao meu programa!", nome);
+        
+        scanner.close();
     }
 }

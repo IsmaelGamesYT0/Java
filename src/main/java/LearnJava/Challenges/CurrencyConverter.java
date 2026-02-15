@@ -13,6 +13,8 @@ public class CurrencyConverter {
 
         System.out.printf("Seu saldo de R$%.2f reais convertido é igual à $%.2f dólares.", saldo, dolar);
 
+        scanner.close();
+        
         // Finalizado em 04m 12s
     }
 }

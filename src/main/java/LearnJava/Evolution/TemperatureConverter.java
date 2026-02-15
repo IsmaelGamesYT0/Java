@@ -16,5 +16,7 @@ public class TemperatureConverter {
         conversao = (celsius * 1.8f) + 32;
 
         System.out.printf(Locale.US,"A temperatura de %.1f°C equivale a %.2f°F.\n", celsius, conversao);
+
+        sc.close();
     }
 }

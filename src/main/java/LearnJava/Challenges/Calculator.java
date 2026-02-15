@@ -60,5 +60,6 @@ public class Calculator {
                 break;
             }
         }
+        scanner.close();
     }
 }

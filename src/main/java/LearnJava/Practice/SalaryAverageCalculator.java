@@ -38,5 +38,7 @@ public class SalaryAverageCalculator {
 
         System.out.print("\n");
         System.out.printf("A média salarial é de R$%.2f", media);
+
+        scanner.close();
     }
 }

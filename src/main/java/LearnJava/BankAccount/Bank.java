@@ -46,5 +46,9 @@ public class Bank {
                 System.out.println("Obrigado!");
             }
         } while (opcao != 4);
+        
+        option.close();
+        deposito.close();
+        saque.close();
     }
 }

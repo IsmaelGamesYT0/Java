@@ -16,5 +16,7 @@ public class GuessingGame {
             }
         }
         System.out.println("\nParábens, você acertou!");
+
+        scanner.close();
     }
 }

@@ -22,5 +22,7 @@ public class CounterWithRule {
         System.out.printf("Você inseriu %d números.\n", contador);
         System.out.printf("Você inseriu %d números positivos.\n", positivo);
         System.out.printf("Você inseriu %d números negativos.\n", negativo);
+
+        scanner.close();
     }
 }

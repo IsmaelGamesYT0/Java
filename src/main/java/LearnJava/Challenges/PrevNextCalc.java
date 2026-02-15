@@ -15,6 +15,8 @@ public class PrevNextCalc {
         System.out.printf("O seu número é %d o sucessor é %d e o antecessor é %d.",
                 numero, sucessor, antecessor);
 
+        scanner.close();
+
         // Finalizado em 02m 13s
     }
 }

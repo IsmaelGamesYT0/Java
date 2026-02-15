@@ -19,6 +19,8 @@ public class PaintEstimator {
 
         System.out.printf("Será preciso %.2f litros de tintas para pintar a parede.", litro_tinta);
 
+        scanner.close();
+
         // Finalizado em 03m 12s
     }
 }

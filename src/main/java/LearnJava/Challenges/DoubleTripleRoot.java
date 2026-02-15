@@ -18,6 +18,8 @@ public class DoubleTripleRoot {
         System.out.printf("O triplo é %d.\n", triplo);
         System.out.printf("A raiz é %d.\n", raiz);
 
+        scanner.close();
+
         // Finalizado em 03m 15s
     }
 }

@@ -35,5 +35,6 @@ public class Dealership {
                 break;
             }
         }
+        sc.close();
     }
 }

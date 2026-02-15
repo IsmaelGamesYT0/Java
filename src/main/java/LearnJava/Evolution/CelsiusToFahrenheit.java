@@ -15,5 +15,7 @@ public class CelsiusToFahrenheit {
         fahrenheit = (celsius * 9 / 5) + 32;
 
         System.out.printf(Locale.US,"\nA temperatura de %.1f°C em Fahrenheit é %.1f°F.\n", celsius, fahrenheit);
+
+        scanner.close();
     }
 }

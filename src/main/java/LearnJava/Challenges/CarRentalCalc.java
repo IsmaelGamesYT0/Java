@@ -18,6 +18,8 @@ public class CarRentalCalc {
         System.out.printf("E rodou %.2fkm.\n", km_rodados);
         System.out.printf("Você terá que pagar %,.2f", pagamento);
 
+        scanner.close();
+        
         // Finalizado em 07m 16s
     }
 }

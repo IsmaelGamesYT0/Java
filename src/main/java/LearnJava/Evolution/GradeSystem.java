@@ -26,5 +26,6 @@ public class GradeSystem {
         else {
             System.out.println("\nReprovado!");
         }
+        scanner.close();
     }
 }

@@ -23,5 +23,7 @@ public class BasicCalculator {
         System.out.printf("\nA multiplicação entre %.0f e %.0f é igual à %.0f.", a, b, mult);
         System.out.printf("\nA divisão entre %.1f e %.1f é igual à %.2f.", a, b, div);
         System.out.printf("\nA raiz entre %.2f e %.2f é igual à %.2f.", a, b, raiz);
+
+        scanner.close();
     }
 }

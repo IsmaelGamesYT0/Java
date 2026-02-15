@@ -11,6 +11,8 @@ public class GreetUser {
 
         System.out.printf("Olá %s prazer em conhece-lo!", nome);
 
+        scanner.close();
+
         // Finalizado em 01m 52s
     }
 }
